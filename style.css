@@ -1,0 +1,48 @@
+/* @import "./fontawesome/scss/fontawesome.scss"; */
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+main.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border-radius : 5px; */
+    /* box-shadow: 12px 0 23px green; */
+    width: 60vw;
+}
+
+.container .coin-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #665cae;
+        /* right bottom back/blur around */
+    box-shadow: 0 7px 15px #665caeaf;
+    
+    margin: 12px;
+}
+
+.container .coin-info .coin-logo{
+    margin-right: 15px;
+    color: navy;
+}
+img{
+    width: 72px;
+    border-radius: 20%;
+}
+
+.container .coin-info div{
+    display: block;
+}
